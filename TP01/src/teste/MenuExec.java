@@ -10,6 +10,7 @@ public class MenuExec {
         Menu datas = new Menu();
 
         datas.jan = new double[10][31];
+        datas.jan[9] = new double[] {40, 31, 27, 54, 32, 12, 16, 12, 54, 43, 11, 13, 24, 1, -5, -16, -9, 5, 27, 25, 35, -20, 34, 31, 21, 24, 29, 28, 30, -8, 31};
         datas.fev = new double[10][];
         for (int i = 0; i < 10; i++) {
             if (i == 1 || i == 5 || i == 9) {
