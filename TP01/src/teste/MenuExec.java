@@ -38,13 +38,13 @@ public class MenuExec {
 
         do {
             System.out.println("----------------------------------");
-            System.out.println("1. Entrada das temperaturas\n2. Cálculo da temperatura média\n3. Cálculo da temperatura mínima\n4. Cálculo da temperatura máxima\n5. Relatório meteorológico\n6. Exit");
+            System.out.println("1. Entrada das temperaturas\n2. Calculo da temperatura media\n3. Calculo da temperatura minima\n4. Calculo da temperatura maxima\n5. Relatorio meteorologico\n6. Exit");
             System.out.println("----------------------------------");
             System.out.println("Escolha uma das opções acima:");
             escolha = ler.nextInt();
 
             while (escolha < 1 || escolha > 6) {
-                System.out.println("Opção inválida, tente novamente: ");
+                System.out.println("Opcao invalida, tente novamente: ");
                 escolha = ler.nextInt();
             }
 
